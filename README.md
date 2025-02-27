@@ -8,4 +8,4 @@ bangs.run#tw elon musk doge
 
 ## Examples
 
-[https://bangs.run#tw elon musk doge](https://bangs.run#tw elon musk doge)
+[tw: elon musk doge](https://bangs.run#tw%20elon%20musk%20doge)
