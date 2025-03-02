@@ -3,7 +3,7 @@ Open source implemention of DDG's Bangs.
 
 ## Usage
 ```
-bangs.run#[]
+bangs.run#{bang} {...queries}
 ```
 
 ## Examples
