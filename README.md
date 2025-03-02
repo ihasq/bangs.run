@@ -1,5 +1,10 @@
-# bangs
-Open source implemention of Bangs by DDG.
+# bangs.run
+Open source implemention of DDG's Bangs.
+
+## Usage
+```
+bangs.run#[]
+```
 
 ## Examples
 
