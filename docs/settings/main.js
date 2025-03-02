@@ -1,6 +1,6 @@
 import { $, h as html, on } from "https://libh.dev";
 
-function Main() {
+export default () => {
 
 	const
 		index = $(0),
@@ -14,5 +14,3 @@ function Main() {
 		<button ${{ [on.click]: () => index.$-- }}>-</button>
 	`;
 }
-
-document.body.append(...Main())
