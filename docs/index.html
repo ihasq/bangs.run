@@ -1,5 +1,3 @@
+<script src="./redirect.js"></script>
 <script src="./bangs.js"></script>
-<script>
-	const [p, ...q] = location.hash.slice(1).split(/%20+/);
-	location.href = location.hash ? localStorage.getItem(`/token/${p}`)?.replace?.("{{{s}}}", q.join(" ")) || "/about" : "/about"
-</script>
+<script src="./redirect.js"></script>

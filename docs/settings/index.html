@@ -4,17 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<!-- <script type="module">
-		import main from "./main.js"
-		document.body.append(...main())
-	</script> -->
+	<script type="module">
+		import main from "./main.js";
+		document.body.append(...main());
+	</script>
 </head>
-<body>
-	<base target=htmz>
-	<h1>Settings</h1>
-	<h2>Edit Bangs</h2>
-	<a href="./page-1.html#result">open</a>
-	<div id="result"></div>
-	<iframe hidden name=htmz onload="setTimeout(()=>document.querySelector(contentWindow.location.hash||null)?.replaceWith(...contentDocument.body.childNodes))"></iframe>
-</body>
 </html>
